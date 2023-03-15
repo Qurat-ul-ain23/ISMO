@@ -1,6 +1,6 @@
 package testcases;
 
 public class SiteConfiguration {
-sdxd
+test git 
 }
 
