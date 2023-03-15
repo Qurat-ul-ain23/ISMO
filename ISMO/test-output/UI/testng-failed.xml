@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UI]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Functional Testing(failed)">
+    <classes>
+      <class name="ui.Jobs">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="jobsModule"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- ui.Jobs -->
+      <class name="ui.CMS_Page">
+        <methods>
+          <include name="addCMSPage"/>
+          <include name="setUpTest"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- ui.CMS_Page -->
+    </classes>
+  </test> <!-- Functional Testing(failed) -->
+</suite> <!-- Failed suite [UI] -->

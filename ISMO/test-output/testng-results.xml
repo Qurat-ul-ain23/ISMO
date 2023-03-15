@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-14T18:13:07 PKT" name="Default suite" finished-at="2023-03-14T18:13:31 PKT" duration-ms="23850">
+    <groups>
+    </groups>
+    <test started-at="2023-03-14T18:13:07 PKT" name="Default test" finished-at="2023-03-14T18:13:31 PKT" duration-ms="23850">
+      <class name="testcases.Dasboard">
+        <test-method is-config="true" signature="setupCall()[pri:0, instance:testcases.Dasboard@2805d709]" started-at="2023-03-14T18:13:08 PKT" name="setupCall" finished-at="2023-03-14T18:13:26 PKT" duration-ms="18631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCall -->
+        <test-method signature="TS_11dasboardModule()[pri:0, instance:testcases.Dasboard@2805d709]" started-at="2023-03-14T18:13:26 PKT" name="TS_11dasboardModule" finished-at="2023-03-14T18:13:27 PKT" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS_11dasboardModule -->
+        <test-method signature="TS_12dashboardWindowTitle()[pri:1, instance:testcases.Dasboard@2805d709]" started-at="2023-03-14T18:13:27 PKT" name="TS_12dashboardWindowTitle" finished-at="2023-03-14T18:13:29 PKT" duration-ms="2032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS_12dashboardWindowTitle -->
+        <test-method is-config="true" signature="teardowntest()[pri:0, instance:testcases.Dasboard@2805d709]" started-at="2023-03-14T18:13:29 PKT" name="teardowntest" finished-at="2023-03-14T18:13:31 PKT" duration-ms="2697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardowntest -->
+      </class> <!-- testcases.Dasboard -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
